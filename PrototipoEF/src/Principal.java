@@ -17,6 +17,7 @@ import javax.swing.JPanel;
  */
 public class Principal extends javax.swing.JFrame {
 
+    
     /**
      * Creates new form Principal
      */
@@ -74,40 +75,13 @@ public class Principal extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jPanel_MantenimientosP = new javax.swing.JPanel();
-        jLabel_ID_Puesto = new javax.swing.JLabel();
-        txt_id_Puesto = new javax.swing.JTextField();
-        jLabel_Nombre_Puesto = new javax.swing.JLabel();
-        txt_Nombre_Puesto = new javax.swing.JTextField();
-        jLabel_Descripcion_Puesto = new javax.swing.JLabel();
-        jLabel_Descripcion_Puesto1 = new javax.swing.JLabel();
-        txt_Estatus_Puesto = new javax.swing.JTextField();
-        jScrollPane22 = new javax.swing.JScrollPane();
-        tbl_Puesto = new javax.swing.JTable();
-        jLabel_Buscar_Puesto = new javax.swing.JLabel();
-        txt_Buscar_Puesto = new javax.swing.JTextField();
-        jLabel_Insertar_Puesto = new javax.swing.JLabel();
-        jLabel_Modificar_Puesto = new javax.swing.JLabel();
-        jLabel_Eliminar_Puesto = new javax.swing.JLabel();
-        Panel_IngresarP = new javax.swing.JPanel();
-        Texto_IngresarP = new javax.swing.JLabel();
-        Panel_ModificarP = new javax.swing.JPanel();
-        Texto_ModificarP = new javax.swing.JLabel();
-        Panel_EliminarP = new javax.swing.JPanel();
-        Texto_EliminarP = new javax.swing.JLabel();
-        Panel_ConsultarP = new javax.swing.JPanel();
-        Texto_ConsultarP = new javax.swing.JLabel();
-        jLabel_TituloD1 = new javax.swing.JLabel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        txt_Descripcion_Puesto = new javax.swing.JTextArea();
-        icono_Buscar1 = new javax.swing.JLabel();
-        jLabel_TituloD2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
 
         jPanel1.setBackground(new java.awt.Color(28, 27, 33));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.SystemColor.controlDkShadow, 5));
+        jPanel1.setMinimumSize(new java.awt.Dimension(1140, 710));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         pnl_menu.setBackground(new java.awt.Color(28, 27, 33));
@@ -238,7 +212,7 @@ public class Principal extends javax.swing.JFrame {
                 btn_cerrarActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_cerrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 0, 43, -1));
+        jPanel1.add(btn_cerrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 0, 43, -1));
 
         pnl_registro.setBackground(new java.awt.Color(28, 27, 33));
         pnl_registro.setMaximumSize(new java.awt.Dimension(448, 326));
@@ -353,239 +327,22 @@ public class Principal extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Copperplate Gothic Bold", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("JORGE LIZANDRO CASTANEDA CHOY");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 250, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 330, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Copperplate Gothic Bold", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("9959 - 18 - 4964.");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 270, -1, -1));
-
-        jPanel_MantenimientosP.setBackground(new java.awt.Color(28, 27, 33));
-        jPanel_MantenimientosP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel_ID_Puesto.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel_ID_Puesto.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel_ID_Puesto.setText("ID Puesto");
-        jPanel_MantenimientosP.add(jLabel_ID_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 330, -1, -1));
-
-        txt_id_Puesto.setBackground(new java.awt.Color(40, 41, 46));
-        txt_id_Puesto.setForeground(new java.awt.Color(153, 153, 153));
-        txt_id_Puesto.setBorder(null);
-        txt_id_Puesto.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txt_id_PuestoActionPerformed(evt);
-            }
-        });
-        jPanel_MantenimientosP.add(txt_id_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 360, 140, 20));
-
-        jLabel_Nombre_Puesto.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel_Nombre_Puesto.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel_Nombre_Puesto.setText("Nombre Puesto");
-        jPanel_MantenimientosP.add(jLabel_Nombre_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 330, -1, -1));
-
-        txt_Nombre_Puesto.setBackground(new java.awt.Color(40, 41, 46));
-        txt_Nombre_Puesto.setForeground(new java.awt.Color(153, 153, 153));
-        txt_Nombre_Puesto.setBorder(null);
-        txt_Nombre_Puesto.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txt_Nombre_PuestoActionPerformed(evt);
-            }
-        });
-        jPanel_MantenimientosP.add(txt_Nombre_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 360, 140, 20));
-
-        jLabel_Descripcion_Puesto.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel_Descripcion_Puesto.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel_Descripcion_Puesto.setText("Descripcion Puesto");
-        jPanel_MantenimientosP.add(jLabel_Descripcion_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 330, -1, -1));
-
-        jLabel_Descripcion_Puesto1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel_Descripcion_Puesto1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel_Descripcion_Puesto1.setText("Estatus Puesto");
-        jPanel_MantenimientosP.add(jLabel_Descripcion_Puesto1, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 330, -1, -1));
-
-        txt_Estatus_Puesto.setBackground(new java.awt.Color(40, 41, 46));
-        txt_Estatus_Puesto.setForeground(new java.awt.Color(153, 153, 153));
-        txt_Estatus_Puesto.setBorder(null);
-        txt_Estatus_Puesto.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txt_Estatus_PuestoActionPerformed(evt);
-            }
-        });
-        jPanel_MantenimientosP.add(txt_Estatus_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 360, 140, 20));
-
-        tbl_Puesto.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {},
-                {},
-                {},
-                {}
-            },
-            new String [] {
-
-            }
-        ));
-        tbl_Puesto.setGridColor(new java.awt.Color(255, 255, 255));
-        tbl_Puesto.setSelectionBackground(new java.awt.Color(40, 41, 46));
-        tbl_Puesto.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tbl_PuestoMouseClicked(evt);
-            }
-        });
-        jScrollPane22.setViewportView(tbl_Puesto);
-
-        jPanel_MantenimientosP.add(jScrollPane22, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 540, 600, 190));
-
-        jLabel_Buscar_Puesto.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel_Buscar_Puesto.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel_Buscar_Puesto.setText("Buscar");
-        jPanel_MantenimientosP.add(jLabel_Buscar_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 490, -1, -1));
-
-        txt_Buscar_Puesto.setBackground(new java.awt.Color(40, 41, 46));
-        txt_Buscar_Puesto.setForeground(new java.awt.Color(153, 153, 153));
-        txt_Buscar_Puesto.setBorder(null);
-        txt_Buscar_Puesto.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txt_Buscar_PuestoActionPerformed(evt);
-            }
-        });
-        txt_Buscar_Puesto.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyReleased(java.awt.event.KeyEvent evt) {
-                txt_Buscar_PuestoKeyReleased(evt);
-            }
-        });
-        jPanel_MantenimientosP.add(txt_Buscar_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 490, 290, 20));
-
-        jLabel_Insertar_Puesto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabel_Insertar_Puesto.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel_Insertar_PuestoMouseClicked(evt);
-            }
-        });
-        jPanel_MantenimientosP.add(jLabel_Insertar_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 470, -1, -1));
-
-        jLabel_Modificar_Puesto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabel_Modificar_Puesto.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel_Modificar_PuestoMouseClicked(evt);
-            }
-        });
-        jPanel_MantenimientosP.add(jLabel_Modificar_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 470, -1, -1));
-
-        jLabel_Eliminar_Puesto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabel_Eliminar_Puesto.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel_Eliminar_PuestoMouseClicked(evt);
-            }
-        });
-        jPanel_MantenimientosP.add(jLabel_Eliminar_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 470, -1, -1));
-
-        Panel_IngresarP.setBackground(new java.awt.Color(28, 27, 33));
-        Panel_IngresarP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                Panel_IngresarPMouseClicked(evt);
-            }
-        });
-        Panel_IngresarP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        Texto_IngresarP.setFont(new java.awt.Font("Open Sans SemiBold", 0, 14)); // NOI18N
-        Texto_IngresarP.setForeground(new java.awt.Color(255, 255, 255));
-        Texto_IngresarP.setText("Ingresar");
-        Texto_IngresarP.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        Texto_IngresarP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                Texto_IngresarPMouseClicked(evt);
-            }
-        });
-        Panel_IngresarP.add(Texto_IngresarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 15, -1, -1));
-
-        jPanel_MantenimientosP.add(Panel_IngresarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 220, 130, 50));
-
-        Panel_ModificarP.setBackground(new java.awt.Color(28, 27, 33));
-        Panel_ModificarP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                Panel_ModificarPMouseClicked(evt);
-            }
-        });
-        Panel_ModificarP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        Texto_ModificarP.setFont(new java.awt.Font("Open Sans SemiBold", 0, 14)); // NOI18N
-        Texto_ModificarP.setForeground(new java.awt.Color(255, 255, 255));
-        Texto_ModificarP.setText("Modificar");
-        Texto_ModificarP.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        Texto_ModificarP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                Texto_ModificarPMouseClicked(evt);
-            }
-        });
-        Panel_ModificarP.add(Texto_ModificarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(35, 15, -1, -1));
-
-        jPanel_MantenimientosP.add(Panel_ModificarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 220, 130, 50));
-
-        Panel_EliminarP.setBackground(new java.awt.Color(28, 27, 33));
-        Panel_EliminarP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        Texto_EliminarP.setFont(new java.awt.Font("Open Sans SemiBold", 0, 14)); // NOI18N
-        Texto_EliminarP.setForeground(new java.awt.Color(255, 255, 255));
-        Texto_EliminarP.setText("Eliminar");
-        Texto_EliminarP.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        Texto_EliminarP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                Texto_EliminarPMouseClicked(evt);
-            }
-        });
-        Panel_EliminarP.add(Texto_EliminarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 15, -1, -1));
-
-        jPanel_MantenimientosP.add(Panel_EliminarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 220, 130, 50));
-
-        Panel_ConsultarP.setBackground(new java.awt.Color(28, 27, 33));
-        Panel_ConsultarP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        Texto_ConsultarP.setFont(new java.awt.Font("Open Sans SemiBold", 0, 14)); // NOI18N
-        Texto_ConsultarP.setForeground(new java.awt.Color(255, 255, 255));
-        Texto_ConsultarP.setText("Consultar");
-        Texto_ConsultarP.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        Texto_ConsultarP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                Texto_ConsultarPMouseClicked(evt);
-            }
-        });
-        Panel_ConsultarP.add(Texto_ConsultarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 15, -1, -1));
-
-        jPanel_MantenimientosP.add(Panel_ConsultarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 220, 130, 50));
-
-        jLabel_TituloD1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Titulo Puesto.png"))); // NOI18N
-        jPanel_MantenimientosP.add(jLabel_TituloD1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 60, 400, 120));
-
-        txt_Descripcion_Puesto.setBackground(new java.awt.Color(40, 41, 46));
-        txt_Descripcion_Puesto.setColumns(20);
-        txt_Descripcion_Puesto.setForeground(new java.awt.Color(255, 255, 255));
-        txt_Descripcion_Puesto.setRows(5);
-        txt_Descripcion_Puesto.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 153, 153)));
-        jScrollPane2.setViewportView(txt_Descripcion_Puesto);
-
-        jPanel_MantenimientosP.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 360, 190, -1));
-        jPanel_MantenimientosP.add(icono_Buscar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 490, 20, 20));
-        jPanel_MantenimientosP.add(jLabel_TituloD2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 60, 400, 120));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 350, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jPanel_MantenimientosP, javax.swing.GroupLayout.PREFERRED_SIZE, 1140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1140, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jPanel_MantenimientosP, javax.swing.GroupLayout.PREFERRED_SIZE, 710, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 598, Short.MAX_VALUE)
         );
 
         pack();
@@ -691,91 +448,6 @@ public class Principal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_menuMouseClicked
 
-    private void txt_id_PuestoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_id_PuestoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txt_id_PuestoActionPerformed
-
-    private void txt_Nombre_PuestoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Nombre_PuestoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txt_Nombre_PuestoActionPerformed
-
-    private void txt_Estatus_PuestoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Estatus_PuestoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txt_Estatus_PuestoActionPerformed
-
-    private void tbl_PuestoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tbl_PuestoMouseClicked
-        // TODO add your handling code here:
-        int Seleccion = tbl_Puesto.rowAtPoint(evt.getPoint());
-        txt_id_Puesto.setText(String.valueOf(tbl_Puesto.getValueAt(Seleccion, 0)));
-        txt_Nombre_Puesto.setText(String.valueOf(tbl_Puesto.getValueAt(Seleccion, 1)));
-        txt_Descripcion_Puesto.setText(String.valueOf(tbl_Puesto.getValueAt(Seleccion, 2)));
-        txt_Estatus_Puesto.setText(String.valueOf(tbl_Puesto.getValueAt(Seleccion, 3)));
-    }//GEN-LAST:event_tbl_PuestoMouseClicked
-
-    private void txt_Buscar_PuestoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Buscar_PuestoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txt_Buscar_PuestoActionPerformed
-
-    private void txt_Buscar_PuestoKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt_Buscar_PuestoKeyReleased
-        // TODO add your handling code here:
-        //Puesto puesto = new Puesto(txt_id_Puesto, txt_Nombre_Puesto, txt_Descripcion_Puesto, txt_Estatus_Puesto, txt_Buscar_Puesto, tbl_Puesto);
-        //puesto.Buscar_PuestoF(txt_Buscar_Puesto.getText());
-    }//GEN-LAST:event_txt_Buscar_PuestoKeyReleased
-
-    private void jLabel_Insertar_PuestoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel_Insertar_PuestoMouseClicked
-        // TODO add your handling code here:
-        //Puesto puesto = new Puesto(txt_id_Puesto, txt_Nombre_Puesto, txt_Descripcion_Puesto, txt_Estatus_Puesto, txt_Buscar_Puesto, tbl_Puesto);
-        //puesto.Insertar_Puesto();
-    }//GEN-LAST:event_jLabel_Insertar_PuestoMouseClicked
-
-    private void jLabel_Modificar_PuestoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel_Modificar_PuestoMouseClicked
-        // TODO add your handling code here:
-        //Puesto puesto = new Puesto(txt_id_Puesto, txt_Nombre_Puesto, txt_Descripcion_Puesto, txt_Estatus_Puesto, txt_Buscar_Puesto, tbl_Puesto);
-        //puesto.Modificar_Puesto();
-    }//GEN-LAST:event_jLabel_Modificar_PuestoMouseClicked
-
-    private void jLabel_Eliminar_PuestoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel_Eliminar_PuestoMouseClicked
-        // TODO add your handling code here:
-        //Puesto puesto = new Puesto(txt_id_Puesto, txt_Nombre_Puesto, txt_Descripcion_Puesto, txt_Estatus_Puesto, txt_Buscar_Puesto, tbl_Puesto);
-        //puesto.Eliminar_Puesto();
-    }//GEN-LAST:event_jLabel_Eliminar_PuestoMouseClicked
-
-    private void Texto_IngresarPMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Texto_IngresarPMouseClicked
-        // TODO add your handling code here:
-        jLabel_Eliminar_Puesto.setVisible(false);
-        jLabel_Modificar_Puesto.setVisible(false);
-        jLabel_Insertar_Puesto.setVisible(true);
-    }//GEN-LAST:event_Texto_IngresarPMouseClicked
-
-    private void Panel_IngresarPMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Panel_IngresarPMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Panel_IngresarPMouseClicked
-
-    private void Texto_ModificarPMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Texto_ModificarPMouseClicked
-        // TODO add your handling code here:
-        jLabel_Modificar_Puesto.setVisible(true);
-        jLabel_Insertar_Puesto.setVisible(false);
-        jLabel_Eliminar_Puesto.setVisible(false);
-    }//GEN-LAST:event_Texto_ModificarPMouseClicked
-
-    private void Panel_ModificarPMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Panel_ModificarPMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Panel_ModificarPMouseClicked
-
-    private void Texto_EliminarPMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Texto_EliminarPMouseClicked
-        // TODO add your handling code here:
-        jLabel_Eliminar_Puesto.setVisible(true);
-        jLabel_Modificar_Puesto.setVisible(false);
-        jLabel_Insertar_Puesto.setVisible(false);
-    }//GEN-LAST:event_Texto_EliminarPMouseClicked
-
-    private void Texto_ConsultarPMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Texto_ConsultarPMouseClicked
-        // TODO add your handling code here:
-        jLabel_Eliminar_Puesto.setVisible(false);
-        jLabel_Modificar_Puesto.setVisible(false);
-        jLabel_Insertar_Puesto.setVisible(false);
-    }//GEN-LAST:event_Texto_ConsultarPMouseClicked
-
     /**
      * @param args the command line arguments
      */
@@ -813,17 +485,8 @@ public class Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel Panel_ConsultarP;
-    private javax.swing.JPanel Panel_EliminarP;
-    private javax.swing.JPanel Panel_IngresarP;
-    private javax.swing.JPanel Panel_ModificarP;
-    private javax.swing.JLabel Texto_ConsultarP;
-    private javax.swing.JLabel Texto_EliminarP;
-    private javax.swing.JLabel Texto_IngresarP;
-    private javax.swing.JLabel Texto_ModificarP;
     private javax.swing.JButton btn_cerrar;
     private javax.swing.JButton btn_menu;
-    private javax.swing.JLabel icono_Buscar1;
     private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -836,33 +499,14 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JLabel jLabel_Buscar_Puesto;
-    private javax.swing.JLabel jLabel_Descripcion_Puesto;
-    private javax.swing.JLabel jLabel_Descripcion_Puesto1;
-    private javax.swing.JLabel jLabel_Eliminar_Puesto;
-    private javax.swing.JLabel jLabel_ID_Puesto;
-    private javax.swing.JLabel jLabel_Insertar_Puesto;
-    private javax.swing.JLabel jLabel_Modificar_Puesto;
-    private javax.swing.JLabel jLabel_Nombre_Puesto;
-    private javax.swing.JLabel jLabel_TituloD1;
-    private javax.swing.JLabel jLabel_TituloD2;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel_MantenimientosP;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane22;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
     private javax.swing.JPanel pnl_menu;
     private javax.swing.JPanel pnl_registro;
-    private javax.swing.JTable tbl_Puesto;
-    private javax.swing.JTextField txt_Buscar_Puesto;
-    private javax.swing.JTextArea txt_Descripcion_Puesto;
-    private javax.swing.JTextField txt_Estatus_Puesto;
-    private javax.swing.JTextField txt_Nombre_Puesto;
     private javax.swing.JTextField txt_apereg;
-    private javax.swing.JTextField txt_id_Puesto;
     private javax.swing.JTextField txt_nombrereg;
     private javax.swing.JPasswordField txt_pass;
     private javax.swing.JTextField txt_segapegreg;

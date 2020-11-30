@@ -15,6 +15,8 @@ public class MDI_JORGE_CASTANEDA9959184964 extends javax.swing.JFrame {
      */
     public MDI_JORGE_CASTANEDA9959184964() {
         initComponents();
+        jPanel_MantenimientosP.setVisible(false);
+        
     }
 
     /**
@@ -26,6 +28,35 @@ public class MDI_JORGE_CASTANEDA9959184964 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jToolBar1 = new javax.swing.JToolBar();
+        jPanel_MantenimientosP = new javax.swing.JPanel();
+        jLabel_ID_Puesto = new javax.swing.JLabel();
+        txt_id_Puesto = new javax.swing.JTextField();
+        jLabel_Nombre_Puesto = new javax.swing.JLabel();
+        txt_Nombre_Puesto = new javax.swing.JTextField();
+        jLabel_Descripcion_Puesto = new javax.swing.JLabel();
+        jLabel_Descripcion_Puesto1 = new javax.swing.JLabel();
+        txt_Estatus_Puesto = new javax.swing.JTextField();
+        jScrollPane22 = new javax.swing.JScrollPane();
+        tbl_Puesto = new javax.swing.JTable();
+        jLabel_Buscar_Puesto = new javax.swing.JLabel();
+        txt_Buscar_Puesto = new javax.swing.JTextField();
+        jLabel_Insertar_Puesto = new javax.swing.JLabel();
+        jLabel_Modificar_Puesto = new javax.swing.JLabel();
+        jLabel_Eliminar_Puesto = new javax.swing.JLabel();
+        Panel_IngresarP = new javax.swing.JPanel();
+        Texto_IngresarP = new javax.swing.JLabel();
+        Panel_ModificarP = new javax.swing.JPanel();
+        Texto_ModificarP = new javax.swing.JLabel();
+        Panel_EliminarP = new javax.swing.JPanel();
+        Texto_EliminarP = new javax.swing.JLabel();
+        Panel_ConsultarP = new javax.swing.JPanel();
+        Texto_ConsultarP = new javax.swing.JLabel();
+        jLabel_TituloD1 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        txt_Descripcion_Puesto = new javax.swing.JTextArea();
+        icono_Buscar1 = new javax.swing.JLabel();
+        jLabel_TituloD2 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
@@ -35,18 +66,154 @@ public class MDI_JORGE_CASTANEDA9959184964 extends javax.swing.JFrame {
         jMenu3 = new javax.swing.JMenu();
         jMenuItem3 = new javax.swing.JMenuItem();
 
+        jToolBar1.setRollover(true);
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel_MantenimientosP.setBackground(new java.awt.Color(28, 27, 33));
+        jPanel_MantenimientosP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel_ID_Puesto.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel_ID_Puesto.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_ID_Puesto.setText("ID Puesto");
+        jPanel_MantenimientosP.add(jLabel_ID_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 330, -1, -1));
+
+        txt_id_Puesto.setBackground(new java.awt.Color(40, 41, 46));
+        txt_id_Puesto.setForeground(new java.awt.Color(153, 153, 153));
+        txt_id_Puesto.setBorder(null);
+        jPanel_MantenimientosP.add(txt_id_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 360, 140, 20));
+
+        jLabel_Nombre_Puesto.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel_Nombre_Puesto.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Nombre_Puesto.setText("Nombre Puesto");
+        jPanel_MantenimientosP.add(jLabel_Nombre_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 330, -1, -1));
+
+        txt_Nombre_Puesto.setBackground(new java.awt.Color(40, 41, 46));
+        txt_Nombre_Puesto.setForeground(new java.awt.Color(153, 153, 153));
+        txt_Nombre_Puesto.setBorder(null);
+        jPanel_MantenimientosP.add(txt_Nombre_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 360, 140, 20));
+
+        jLabel_Descripcion_Puesto.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel_Descripcion_Puesto.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Descripcion_Puesto.setText("Descripcion Puesto");
+        jPanel_MantenimientosP.add(jLabel_Descripcion_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 330, -1, -1));
+
+        jLabel_Descripcion_Puesto1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel_Descripcion_Puesto1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Descripcion_Puesto1.setText("Estatus Puesto");
+        jPanel_MantenimientosP.add(jLabel_Descripcion_Puesto1, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 330, -1, -1));
+
+        txt_Estatus_Puesto.setBackground(new java.awt.Color(40, 41, 46));
+        txt_Estatus_Puesto.setForeground(new java.awt.Color(153, 153, 153));
+        txt_Estatus_Puesto.setBorder(null);
+        jPanel_MantenimientosP.add(txt_Estatus_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 360, 140, 20));
+
+        tbl_Puesto.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {},
+                {},
+                {},
+                {}
+            },
+            new String [] {
+
+            }
+        ));
+        tbl_Puesto.setGridColor(new java.awt.Color(255, 255, 255));
+        tbl_Puesto.setSelectionBackground(new java.awt.Color(40, 41, 46));
+        jScrollPane22.setViewportView(tbl_Puesto);
+
+        jPanel_MantenimientosP.add(jScrollPane22, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 540, 600, 190));
+
+        jLabel_Buscar_Puesto.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel_Buscar_Puesto.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Buscar_Puesto.setText("Buscar");
+        jPanel_MantenimientosP.add(jLabel_Buscar_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 490, -1, -1));
+
+        txt_Buscar_Puesto.setBackground(new java.awt.Color(40, 41, 46));
+        txt_Buscar_Puesto.setForeground(new java.awt.Color(153, 153, 153));
+        txt_Buscar_Puesto.setBorder(null);
+        jPanel_MantenimientosP.add(txt_Buscar_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 490, 290, 20));
+
+        jLabel_Insertar_Puesto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel_MantenimientosP.add(jLabel_Insertar_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 470, -1, -1));
+
+        jLabel_Modificar_Puesto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel_MantenimientosP.add(jLabel_Modificar_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 470, -1, -1));
+
+        jLabel_Eliminar_Puesto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel_MantenimientosP.add(jLabel_Eliminar_Puesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 470, -1, -1));
+
+        Panel_IngresarP.setBackground(new java.awt.Color(28, 27, 33));
+        Panel_IngresarP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        Texto_IngresarP.setFont(new java.awt.Font("Open Sans SemiBold", 0, 14)); // NOI18N
+        Texto_IngresarP.setForeground(new java.awt.Color(255, 255, 255));
+        Texto_IngresarP.setText("Ingresar");
+        Texto_IngresarP.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Panel_IngresarP.add(Texto_IngresarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 15, -1, -1));
+
+        jPanel_MantenimientosP.add(Panel_IngresarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 220, 130, 50));
+
+        Panel_ModificarP.setBackground(new java.awt.Color(28, 27, 33));
+        Panel_ModificarP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        Texto_ModificarP.setFont(new java.awt.Font("Open Sans SemiBold", 0, 14)); // NOI18N
+        Texto_ModificarP.setForeground(new java.awt.Color(255, 255, 255));
+        Texto_ModificarP.setText("Modificar");
+        Texto_ModificarP.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Panel_ModificarP.add(Texto_ModificarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(35, 15, -1, -1));
+
+        jPanel_MantenimientosP.add(Panel_ModificarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 220, 130, 50));
+
+        Panel_EliminarP.setBackground(new java.awt.Color(28, 27, 33));
+        Panel_EliminarP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        Texto_EliminarP.setFont(new java.awt.Font("Open Sans SemiBold", 0, 14)); // NOI18N
+        Texto_EliminarP.setForeground(new java.awt.Color(255, 255, 255));
+        Texto_EliminarP.setText("Eliminar");
+        Texto_EliminarP.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Panel_EliminarP.add(Texto_EliminarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 15, -1, -1));
+
+        jPanel_MantenimientosP.add(Panel_EliminarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 220, 130, 50));
+
+        Panel_ConsultarP.setBackground(new java.awt.Color(28, 27, 33));
+        Panel_ConsultarP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        Texto_ConsultarP.setFont(new java.awt.Font("Open Sans SemiBold", 0, 14)); // NOI18N
+        Texto_ConsultarP.setForeground(new java.awt.Color(255, 255, 255));
+        Texto_ConsultarP.setText("Consultar");
+        Texto_ConsultarP.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Panel_ConsultarP.add(Texto_ConsultarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 15, -1, -1));
+
+        jPanel_MantenimientosP.add(Panel_ConsultarP, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 220, 130, 50));
+
+        jLabel_TituloD1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Titulo Puesto.png"))); // NOI18N
+        jPanel_MantenimientosP.add(jLabel_TituloD1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 60, 400, 120));
+
+        txt_Descripcion_Puesto.setBackground(new java.awt.Color(40, 41, 46));
+        txt_Descripcion_Puesto.setColumns(20);
+        txt_Descripcion_Puesto.setForeground(new java.awt.Color(255, 255, 255));
+        txt_Descripcion_Puesto.setRows(5);
+        txt_Descripcion_Puesto.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 153, 153)));
+        jScrollPane2.setViewportView(txt_Descripcion_Puesto);
+
+        jPanel_MantenimientosP.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 360, 190, -1));
+        jPanel_MantenimientosP.add(icono_Buscar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 490, 20, 20));
+        jPanel_MantenimientosP.add(jLabel_TituloD2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 60, 400, 120));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 900, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 279, Short.MAX_VALUE)
+            .addGap(0, 719, Short.MAX_VALUE)
         );
+
+        jPanel_MantenimientosP.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, -1, -1));
 
         jMenu1.setText("MANTENIMIENTOS");
         jMenu1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -85,11 +252,17 @@ public class MDI_JORGE_CASTANEDA9959184964 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jPanel_MantenimientosP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jPanel_MantenimientosP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
@@ -99,6 +272,9 @@ public class MDI_JORGE_CASTANEDA9959184964 extends javax.swing.JFrame {
         // TODO add your handling code here:
         //aqui es el mouse clicked del menu item
         jPanel_MantenimientosP.setVisible(true);
+        jPanel1.setVisible(false);
+        
+        
         
     }//GEN-LAST:event_jMenuItem4MouseClicked
 
@@ -142,7 +318,25 @@ public class MDI_JORGE_CASTANEDA9959184964 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel Panel_ConsultarP;
+    private javax.swing.JPanel Panel_EliminarP;
+    private javax.swing.JPanel Panel_IngresarP;
+    private javax.swing.JPanel Panel_ModificarP;
+    private javax.swing.JLabel Texto_ConsultarP;
+    private javax.swing.JLabel Texto_EliminarP;
+    private javax.swing.JLabel Texto_IngresarP;
+    private javax.swing.JLabel Texto_ModificarP;
+    private javax.swing.JLabel icono_Buscar1;
+    private javax.swing.JLabel jLabel_Buscar_Puesto;
+    private javax.swing.JLabel jLabel_Descripcion_Puesto;
+    private javax.swing.JLabel jLabel_Descripcion_Puesto1;
+    private javax.swing.JLabel jLabel_Eliminar_Puesto;
     private javax.swing.JLabel jLabel_ID_Puesto;
+    private javax.swing.JLabel jLabel_Insertar_Puesto;
+    private javax.swing.JLabel jLabel_Modificar_Puesto;
+    private javax.swing.JLabel jLabel_Nombre_Puesto;
+    private javax.swing.JLabel jLabel_TituloD1;
+    private javax.swing.JLabel jLabel_TituloD2;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
@@ -152,6 +346,14 @@ public class MDI_JORGE_CASTANEDA9959184964 extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel_MantenimientosP;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane22;
+    private javax.swing.JToolBar jToolBar1;
+    private javax.swing.JTable tbl_Puesto;
+    private javax.swing.JTextField txt_Buscar_Puesto;
+    private javax.swing.JTextArea txt_Descripcion_Puesto;
+    private javax.swing.JTextField txt_Estatus_Puesto;
+    private javax.swing.JTextField txt_Nombre_Puesto;
     private javax.swing.JTextField txt_id_Puesto;
     // End of variables declaration//GEN-END:variables
 }
