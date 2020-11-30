@@ -8,7 +8,7 @@
 /*import static Finanzas_Clases.Departamento.Base_de_Datos;
 import static Finanzas_Clases.Departamento.Clave;
 import static Finanzas_Clases.Departamento.Usuario;
-*/import java.sql.Connection;
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -22,7 +22,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author Langas
  */
-public class Puesto 
+/*public class Puesto 
 {
     //Atributos
     JTextField id_Puesto;
@@ -226,3 +226,4 @@ public class Puesto
     }
     
 }
+*/
