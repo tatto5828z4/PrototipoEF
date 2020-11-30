@@ -49,8 +49,18 @@ public class MDI_JORGE_CASTANEDA9959184964 extends javax.swing.JFrame {
         );
 
         jMenu1.setText("MANTENIMIENTOS");
+        jMenu1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jMenu1MouseClicked(evt);
+            }
+        });
 
         jMenuItem4.setText("PUESTO");
+        jMenuItem4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jMenuItem4MouseClicked(evt);
+            }
+        });
         jMenu1.add(jMenuItem4);
 
         jMenuBar1.add(jMenu1);
@@ -84,6 +94,17 @@ public class MDI_JORGE_CASTANEDA9959184964 extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jMenuItem4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenuItem4MouseClicked
+        // TODO add your handling code here:
+        //aqui es el mouse clicked del menu item
+        jPanel_MantenimientosP.setVisible(true);
+        
+    }//GEN-LAST:event_jMenuItem4MouseClicked
+
+    private void jMenu1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenu1MouseClicked
 
     /**
      * @param args the command line arguments
@@ -121,6 +142,7 @@ public class MDI_JORGE_CASTANEDA9959184964 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel_ID_Puesto;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
@@ -129,5 +151,7 @@ public class MDI_JORGE_CASTANEDA9959184964 extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel_MantenimientosP;
+    private javax.swing.JTextField txt_id_Puesto;
     // End of variables declaration//GEN-END:variables
 }
